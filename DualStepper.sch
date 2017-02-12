@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -607,8 +607,8 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="B1" library="we-board" deviceset="STEPSTICK" device="-TP"/>
-<part name="B2" library="we-board" deviceset="STEPSTICK" device="-TP"/>
+<part name="STEPDRV1" library="we-board" deviceset="STEPSTICK" device="-TP"/>
+<part name="STEPDRV2" library="we-board" deviceset="STEPSTICK" device="-TP"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -618,25 +618,25 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <part name="P+4" library="supply1" deviceset="+24V" device=""/>
 <part name="P+5" library="supply1" deviceset="+24V" device=""/>
 <part name="P+6" library="supply1" deviceset="+24V" device=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X3" device="">
+<part name="S1CFG1" library="pinhead" deviceset="PINHD-1X3" device="">
 <attribute name="A1" value=""/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X3" device="">
+<part name="S1CFG2" library="pinhead" deviceset="PINHD-1X3" device="">
 <attribute name="A1" value=""/>
 </part>
-<part name="JP3" library="pinhead" deviceset="PINHD-1X3" device="">
+<part name="S1CFG3" library="pinhead" deviceset="PINHD-1X3" device="">
 <attribute name="A1" value=""/>
 </part>
-<part name="JP4" library="pinhead" deviceset="PINHD-1X3" device="">
+<part name="S2CFG1" library="pinhead" deviceset="PINHD-1X3" device="">
 <attribute name="A1" value=""/>
 </part>
-<part name="JP5" library="pinhead" deviceset="PINHD-1X3" device="">
+<part name="S2CFG2" library="pinhead" deviceset="PINHD-1X3" device="">
 <attribute name="A1" value=""/>
 </part>
-<part name="JP6" library="pinhead" deviceset="PINHD-1X3" device="">
+<part name="S2CFG3" library="pinhead" deviceset="PINHD-1X3" device="">
 <attribute name="A1" value=""/>
 </part>
 <part name="JP7" library="pinhead" deviceset="PINHD-1X4" device=""/>
@@ -644,19 +644,19 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="X1" library="con-phoenix-350" deviceset="1751248" device=""/>
-<part name="X2" library="con-phoenix-350" deviceset="1751248" device=""/>
-<part name="X3" library="con-phoenix-350" deviceset="1751248" device=""/>
-<part name="X4" library="con-phoenix-350" deviceset="1751248" device=""/>
-<part name="X5" library="con-phoenix-350" deviceset="1751248" device=""/>
+<part name="ST1M1" library="con-phoenix-350" deviceset="1751248" device=""/>
+<part name="ST1M2" library="con-phoenix-350" deviceset="1751248" device=""/>
+<part name="ST2M1" library="con-phoenix-350" deviceset="1751248" device=""/>
+<part name="ST2M2" library="con-phoenix-350" deviceset="1751248" device=""/>
+<part name="VM" library="con-phoenix-350" deviceset="1751248" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="B1" gate="BOARD" x="68.58" y="58.42"/>
-<instance part="B2" gate="BOARD" x="68.58" y="12.7"/>
+<instance part="STEPDRV1" gate="BOARD" x="68.58" y="58.42"/>
+<instance part="STEPDRV2" gate="BOARD" x="68.58" y="12.7"/>
 <instance part="GND1" gate="1" x="83.82" y="40.64"/>
 <instance part="GND2" gate="1" x="83.82" y="-7.62"/>
 <instance part="GND3" gate="1" x="0" y="-17.78"/>
@@ -666,25 +666,25 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <instance part="P+4" gate="1" x="101.6" y="38.1" rot="R180"/>
 <instance part="P+5" gate="1" x="101.6" y="-7.62" rot="R180"/>
 <instance part="P+6" gate="1" x="-7.62" y="76.2" rot="R270"/>
-<instance part="JP1" gate="A" x="15.24" y="68.58">
+<instance part="S1CFG1" gate="A" x="15.24" y="68.58">
 <attribute name="A1" x="15.24" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="2.54" y="38.1"/>
 <instance part="GND5" gate="1" x="-7.62" y="71.12" rot="R90"/>
 <instance part="P+7" gate="1" x="17.78" y="30.48" rot="R180"/>
-<instance part="JP2" gate="A" x="15.24" y="55.88">
+<instance part="S1CFG2" gate="A" x="15.24" y="55.88">
 <attribute name="A1" x="15.24" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="JP3" gate="A" x="15.24" y="43.18">
+<instance part="S1CFG3" gate="A" x="15.24" y="43.18">
 <attribute name="A1" x="15.24" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="JP4" gate="A" x="15.24" y="20.32">
+<instance part="S2CFG1" gate="A" x="15.24" y="20.32">
 <attribute name="A1" x="15.24" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="JP5" gate="A" x="15.24" y="7.62">
+<instance part="S2CFG2" gate="A" x="15.24" y="7.62">
 <attribute name="A1" x="15.24" y="7.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="JP6" gate="A" x="15.24" y="-5.08">
+<instance part="S2CFG3" gate="A" x="15.24" y="-5.08">
 <attribute name="A1" x="15.24" y="-5.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="JP7" gate="A" x="38.1" y="86.36" rot="R90"/>
@@ -692,16 +692,16 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <instance part="GND6" gate="1" x="30.48" y="71.12"/>
 <instance part="GND7" gate="1" x="50.8" y="73.66" rot="R270"/>
 <instance part="GND8" gate="1" x="50.8" y="27.94" rot="R270"/>
-<instance part="X1" gate="-1" x="114.3" y="73.66"/>
-<instance part="X1" gate="-2" x="114.3" y="68.58"/>
-<instance part="X2" gate="-1" x="114.3" y="63.5"/>
-<instance part="X2" gate="-2" x="114.3" y="58.42"/>
-<instance part="X3" gate="-1" x="114.3" y="27.94"/>
-<instance part="X3" gate="-2" x="114.3" y="22.86"/>
-<instance part="X4" gate="-1" x="114.3" y="17.78"/>
-<instance part="X4" gate="-2" x="114.3" y="12.7"/>
-<instance part="X5" gate="-1" x="-15.24" y="71.12" rot="R180"/>
-<instance part="X5" gate="-2" x="-15.24" y="76.2" rot="R180"/>
+<instance part="ST1M1" gate="-1" x="114.3" y="73.66"/>
+<instance part="ST1M1" gate="-2" x="114.3" y="68.58"/>
+<instance part="ST1M2" gate="-1" x="114.3" y="63.5"/>
+<instance part="ST1M2" gate="-2" x="114.3" y="58.42"/>
+<instance part="ST2M1" gate="-1" x="114.3" y="27.94"/>
+<instance part="ST2M1" gate="-2" x="114.3" y="22.86"/>
+<instance part="ST2M2" gate="-1" x="114.3" y="17.78"/>
+<instance part="ST2M2" gate="-2" x="114.3" y="12.7"/>
+<instance part="VM" gate="-1" x="-15.24" y="71.12" rot="R180"/>
+<instance part="VM" gate="-2" x="-15.24" y="76.2" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -710,43 +710,43 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="83.82" y1="-5.08" x2="83.82" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="B2" gate="BOARD" pin="GND"/>
+<pinref part="STEPDRV2" gate="BOARD" pin="GND"/>
 <wire x1="83.82" y1="-2.54" x2="81.28" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="B1" gate="BOARD" pin="GND"/>
+<pinref part="STEPDRV1" gate="BOARD" pin="GND"/>
 <wire x1="83.82" y1="43.18" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="-12.7" y1="71.12" x2="-10.16" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="X5" gate="-1" pin="K"/>
+<pinref part="VM" gate="-1" pin="K"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="JP3" gate="A" pin="1"/>
+<pinref part="S1CFG3" gate="A" pin="1"/>
 <wire x1="2.54" y1="40.64" x2="2.54" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="45.72" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="1"/>
+<pinref part="S1CFG2" gate="A" pin="1"/>
 <wire x1="2.54" y1="40.64" x2="2.54" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="58.42" x2="12.7" y2="58.42" width="0.1524" layer="91"/>
 <junction x="2.54" y="40.64"/>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="S1CFG1" gate="A" pin="1"/>
 <wire x1="2.54" y1="40.64" x2="2.54" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="71.12" x2="12.7" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="JP5" gate="A" pin="1"/>
+<pinref part="S2CFG2" gate="A" pin="1"/>
 <wire x1="0" y1="-15.24" x2="0" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="0" y1="-2.54" x2="0" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="0" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="1"/>
+<pinref part="S2CFG1" gate="A" pin="1"/>
 <wire x1="0" y1="10.16" x2="0" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="0" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
 <junction x="0" y="10.16"/>
-<pinref part="JP6" gate="A" pin="1"/>
+<pinref part="S2CFG3" gate="A" pin="1"/>
 <wire x1="12.7" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="0" y="-2.54"/>
 </segment>
@@ -759,12 +759,12 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="B1" gate="BOARD" pin="EN(CFG6)"/>
+<pinref part="STEPDRV1" gate="BOARD" pin="EN(CFG6)"/>
 <wire x1="53.34" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="B2" gate="BOARD" pin="EN(CFG6)"/>
+<pinref part="STEPDRV2" gate="BOARD" pin="EN(CFG6)"/>
 <wire x1="53.34" y1="27.94" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -772,17 +772,17 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <segment>
 <pinref part="P+6" gate="1" pin="+24V"/>
 <wire x1="-12.7" y1="76.2" x2="-10.16" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="X5" gate="-2" pin="K"/>
+<pinref part="VM" gate="-2" pin="K"/>
 </segment>
 <segment>
 <pinref part="P+5" gate="1" pin="+24V"/>
-<pinref part="B2" gate="BOARD" pin="VM"/>
+<pinref part="STEPDRV2" gate="BOARD" pin="VM"/>
 <wire x1="101.6" y1="-5.08" x2="101.6" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="7.62" x2="81.28" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+4" gate="1" pin="+24V"/>
-<pinref part="B1" gate="BOARD" pin="VM"/>
+<pinref part="STEPDRV1" gate="BOARD" pin="VM"/>
 <wire x1="101.6" y1="40.64" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="53.34" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
 </segment>
@@ -790,40 +790,40 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <net name="+5V" class="0">
 <segment>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<pinref part="B2" gate="BOARD" pin="VIO"/>
+<pinref part="STEPDRV2" gate="BOARD" pin="VIO"/>
 <wire x1="93.98" y1="-5.08" x2="93.98" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="2.54" x2="81.28" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<pinref part="B1" gate="BOARD" pin="VIO"/>
+<pinref part="STEPDRV1" gate="BOARD" pin="VIO"/>
 <wire x1="93.98" y1="40.64" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<pinref part="JP3" gate="A" pin="3"/>
+<pinref part="S1CFG3" gate="A" pin="3"/>
 <wire x1="17.78" y1="33.02" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="40.64" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
 <junction x="17.78" y="33.02"/>
 <wire x1="17.78" y1="33.02" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="3"/>
+<pinref part="S1CFG2" gate="A" pin="3"/>
 <wire x1="17.78" y1="53.34" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="53.34" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
 <junction x="17.78" y="53.34"/>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="S1CFG1" gate="A" pin="3"/>
 <wire x1="12.7" y1="66.04" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+3" gate="1" pin="+5V"/>
-<pinref part="JP6" gate="A" pin="3"/>
+<pinref part="S2CFG3" gate="A" pin="3"/>
 <wire x1="20.32" y1="-15.24" x2="20.32" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="A" pin="3"/>
+<pinref part="S2CFG2" gate="A" pin="3"/>
 <wire x1="20.32" y1="-7.62" x2="20.32" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="5.08" x2="12.7" y2="5.08" width="0.1524" layer="91"/>
 <junction x="20.32" y="-7.62"/>
-<pinref part="JP4" gate="A" pin="3"/>
+<pinref part="S2CFG1" gate="A" pin="3"/>
 <wire x1="20.32" y1="5.08" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="17.78" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
 <junction x="20.32" y="5.08"/>
@@ -836,37 +836,37 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="B1" gate="BOARD" pin="M2B"/>
+<pinref part="STEPDRV1" gate="BOARD" pin="M2B"/>
 <wire x1="111.76" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-2" pin="K"/>
+<pinref part="ST1M2" gate="-2" pin="K"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="B1" gate="BOARD" pin="M2A"/>
+<pinref part="STEPDRV1" gate="BOARD" pin="M2A"/>
 <wire x1="111.76" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-1" pin="K"/>
+<pinref part="ST1M2" gate="-1" pin="K"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="B1" gate="BOARD" pin="M1A"/>
+<pinref part="STEPDRV1" gate="BOARD" pin="M1A"/>
 <wire x1="111.76" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-2" pin="K"/>
+<pinref part="ST1M1" gate="-2" pin="K"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="B1" gate="BOARD" pin="M1B"/>
+<pinref part="STEPDRV1" gate="BOARD" pin="M1B"/>
 <wire x1="111.76" y1="73.66" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-1" pin="K"/>
+<pinref part="ST1M1" gate="-1" pin="K"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="B1" gate="BOARD" pin="CFG2/SCK"/>
+<pinref part="STEPDRV1" gate="BOARD" pin="CFG2/SCK"/>
 <wire x1="55.88" y1="58.42" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="2"/>
+<pinref part="S1CFG2" gate="A" pin="2"/>
 <wire x1="50.8" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="55.88" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="55.88" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
@@ -875,8 +875,8 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="B1" gate="BOARD" pin="CFG3/CS"/>
-<pinref part="JP3" gate="A" pin="2"/>
+<pinref part="STEPDRV1" gate="BOARD" pin="CFG3/CS"/>
+<pinref part="S1CFG3" gate="A" pin="2"/>
 <wire x1="12.7" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="43.18" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
@@ -884,47 +884,47 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="JP4" gate="A" pin="2"/>
+<pinref part="S2CFG1" gate="A" pin="2"/>
 <wire x1="12.7" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="B2" gate="BOARD" pin="CFG1/SDI"/>
+<pinref part="STEPDRV2" gate="BOARD" pin="CFG1/SDI"/>
 <wire x1="33.02" y1="20.32" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="15.24" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="JP5" gate="A" pin="2"/>
+<pinref part="S2CFG2" gate="A" pin="2"/>
 <wire x1="12.7" y1="7.62" x2="25.4" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="B2" gate="BOARD" pin="CFG2/SCK"/>
+<pinref part="STEPDRV2" gate="BOARD" pin="CFG2/SCK"/>
 <wire x1="25.4" y1="7.62" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="12.7" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="JP6" gate="A" pin="2"/>
+<pinref part="S2CFG3" gate="A" pin="2"/>
 <wire x1="12.7" y1="-5.08" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-5.08" x2="30.48" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="B2" gate="BOARD" pin="CFG3/CS"/>
+<pinref part="STEPDRV2" gate="BOARD" pin="CFG3/CS"/>
 <wire x1="30.48" y1="10.16" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="B1" gate="BOARD" pin="CFG1/SDI"/>
+<pinref part="STEPDRV1" gate="BOARD" pin="CFG1/SDI"/>
 <wire x1="55.88" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="S1CFG1" gate="A" pin="2"/>
 <wire x1="33.02" y1="60.96" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="68.58" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="B1" gate="BOARD" pin="DIR"/>
+<pinref part="STEPDRV1" gate="BOARD" pin="DIR"/>
 <wire x1="55.88" y1="71.12" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="JP7" gate="A" pin="4"/>
 <wire x1="40.64" y1="71.12" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="B2" gate="BOARD" pin="DIR"/>
+<pinref part="STEPDRV2" gate="BOARD" pin="DIR"/>
 <wire x1="40.64" y1="71.12" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
 <junction x="40.64" y="71.12"/>
@@ -933,10 +933,10 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <net name="N$16" class="0">
 <segment>
 <pinref part="JP7" gate="A" pin="3"/>
-<pinref part="B1" gate="BOARD" pin="STEP"/>
+<pinref part="STEPDRV1" gate="BOARD" pin="STEP"/>
 <wire x1="38.1" y1="83.82" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="B2" gate="BOARD" pin="STEP"/>
+<pinref part="STEPDRV2" gate="BOARD" pin="STEP"/>
 <wire x1="38.1" y1="68.58" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 <junction x="38.1" y="68.58"/>
@@ -944,30 +944,30 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="B2" gate="BOARD" pin="M1B"/>
+<pinref part="STEPDRV2" gate="BOARD" pin="M1B"/>
 <wire x1="81.28" y1="27.94" x2="111.76" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-1" pin="K"/>
+<pinref part="ST2M1" gate="-1" pin="K"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="B2" gate="BOARD" pin="M1A"/>
+<pinref part="STEPDRV2" gate="BOARD" pin="M1A"/>
 <wire x1="81.28" y1="22.86" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-2" pin="K"/>
+<pinref part="ST2M1" gate="-2" pin="K"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="B2" gate="BOARD" pin="M2A"/>
+<pinref part="STEPDRV2" gate="BOARD" pin="M2A"/>
 <wire x1="81.28" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="X4" gate="-1" pin="K"/>
+<pinref part="ST2M2" gate="-1" pin="K"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="B2" gate="BOARD" pin="M2B"/>
+<pinref part="STEPDRV2" gate="BOARD" pin="M2B"/>
 <wire x1="81.28" y1="12.7" x2="111.76" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="X4" gate="-2" pin="K"/>
+<pinref part="ST2M2" gate="-2" pin="K"/>
 </segment>
 </net>
 </nets>
