@@ -639,7 +639,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <part name="S2CFG3" library="pinhead" deviceset="PINHD-1X3" device="">
 <attribute name="A1" value=""/>
 </part>
-<part name="JP7" library="pinhead" deviceset="PINHD-1X4" device=""/>
+<part name="SIGNAL" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
@@ -687,7 +687,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <instance part="S2CFG3" gate="A" x="15.24" y="-5.08">
 <attribute name="A1" x="15.24" y="-5.08" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="JP7" gate="A" x="38.1" y="86.36" rot="R90"/>
+<instance part="SIGNAL" gate="A" x="38.1" y="86.36" rot="R90"/>
 <instance part="P+8" gate="1" x="35.56" y="71.12" rot="R180"/>
 <instance part="GND6" gate="1" x="30.48" y="71.12"/>
 <instance part="GND7" gate="1" x="50.8" y="73.66" rot="R270"/>
@@ -754,7 +754,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="30.48" y1="73.66" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="A" pin="1"/>
+<pinref part="SIGNAL" gate="A" pin="1"/>
 <wire x1="33.02" y1="76.2" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -830,7 +830,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </segment>
 <segment>
 <pinref part="P+8" gate="1" pin="+5V"/>
-<pinref part="JP7" gate="A" pin="2"/>
+<pinref part="SIGNAL" gate="A" pin="2"/>
 <wire x1="35.56" y1="73.66" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -922,7 +922,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <segment>
 <pinref part="STEPDRV1" gate="BOARD" pin="DIR"/>
 <wire x1="55.88" y1="71.12" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="A" pin="4"/>
+<pinref part="SIGNAL" gate="A" pin="4"/>
 <wire x1="40.64" y1="71.12" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="STEPDRV2" gate="BOARD" pin="DIR"/>
 <wire x1="40.64" y1="71.12" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
@@ -932,7 +932,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="JP7" gate="A" pin="3"/>
+<pinref part="SIGNAL" gate="A" pin="3"/>
 <pinref part="STEPDRV1" gate="BOARD" pin="STEP"/>
 <wire x1="38.1" y1="83.82" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>

@@ -448,7 +448,7 @@ design rules under a new name.</description>
 <element name="S2CFG3" library="pinhead" package="1X03" value="" x="36.83" y="24.13">
 <attribute name="A1" value="" x="36.83" y="24.13" size="1.778" layer="27" display="off"/>
 </element>
-<element name="JP7" library="pinhead" package="1X04" value="" x="45.72" y="20.32"/>
+<element name="SIGNAL" library="pinhead" package="1X04" value="" x="45.72" y="20.32"/>
 <element name="ST1M1" library="con-phoenix-350" package="1751248" value="1751248" x="54.9832" y="69.0614">
 <attribute name="OC_NEWARK" value="unknown" x="54.9832" y="69.0614" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="54.9832" y="69.0614" size="1.778" layer="27" display="off"/>
@@ -491,7 +491,7 @@ design rules under a new name.</description>
 <contactref element="S1CFG1" pad="1"/>
 <contactref element="S2CFG2" pad="1"/>
 <contactref element="S2CFG1" pad="1"/>
-<contactref element="JP7" pad="1"/>
+<contactref element="SIGNAL" pad="1"/>
 <contactref element="STEPDRV1" pad="EN"/>
 <contactref element="STEPDRV2" pad="EN"/>
 <wire x1="58.42" y1="36.83" x2="58.42" y2="34.29" width="0.4572" layer="16"/>
@@ -593,7 +593,7 @@ design rules under a new name.</description>
 <contactref element="S2CFG3" pad="3"/>
 <contactref element="S2CFG2" pad="3"/>
 <contactref element="S2CFG1" pad="3"/>
-<contactref element="JP7" pad="2"/>
+<contactref element="SIGNAL" pad="2"/>
 <wire x1="53.34" y1="24.13" x2="53.34" y2="22.86" width="0.4572" layer="16"/>
 <wire x1="53.34" y1="22.86" x2="54.61" y2="21.59" width="0.4572" layer="16"/>
 <wire x1="54.61" y1="21.59" x2="59.69" y2="21.59" width="0.4572" layer="16"/>
@@ -732,7 +732,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$15">
 <contactref element="STEPDRV1" pad="DIR"/>
-<contactref element="JP7" pad="4"/>
+<contactref element="SIGNAL" pad="4"/>
 <contactref element="STEPDRV2" pad="DIR"/>
 <wire x1="49.53" y1="40.64" x2="49.53" y2="20.32" width="0.2" layer="16"/>
 <wire x1="31.75" y1="40.64" x2="31.75" y2="20.95" width="0.2" layer="16"/>
@@ -745,7 +745,7 @@ design rules under a new name.</description>
 <wire x1="49.6" y1="20.25" x2="49.53" y2="20.32" width="0.4572" layer="16"/>
 </signal>
 <signal name="N$16">
-<contactref element="JP7" pad="3"/>
+<contactref element="SIGNAL" pad="3"/>
 <contactref element="STEPDRV1" pad="STEP"/>
 <contactref element="STEPDRV2" pad="STEP"/>
 <wire x1="31.75" y1="43.18" x2="33.02" y2="41.91" width="0.2" layer="16"/>
