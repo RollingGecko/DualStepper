@@ -7,4 +7,6 @@ It should be compatible with the following steppers
 * StepStick http://reprap.org/wiki/StepStick
 * A4988 https://www.pololu.com/product/1182
 
+Additionaly there is also a conector board designed, to bring GND, +5V, step, DIR out from the main board's stepper socket.
+
 
