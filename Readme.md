@@ -1,6 +1,6 @@
 #DualStepper
 
-The DualStepper is an adapter board to work with two stepper drivers in parallel sharing on signal and to drive 2 stepperdrivers.
+The DualStepper is an adapter board to work with two stepper drivers in parallel sharing one step and direction signal and to drive 2 stepper motors.
 It should be compatible with the following steppers
 
 * SilentStepStick https://github.com/watterott/SilentStepStick
