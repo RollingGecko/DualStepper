@@ -58,14 +58,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="22.1996" y1="13.5636" x2="74.2444" y2="13.5636" width="0" layer="20"/>
+<wire x1="21.3868" y1="13.5636" x2="74.2444" y2="13.5636" width="0" layer="20"/>
 <wire x1="74.2444" y1="13.5636" x2="74.3968" y2="76.5456" width="0" layer="20"/>
-<wire x1="74.3968" y1="76.5456" x2="22.1488" y2="76.5456" width="0" layer="20"/>
-<wire x1="22.1488" y1="76.5456" x2="22.1996" y2="13.5636" width="0" layer="20"/>
+<wire x1="74.3968" y1="76.5456" x2="21.336" y2="76.5456" width="0" layer="20"/>
+<wire x1="21.336" y1="76.5456" x2="21.3868" y2="13.5636" width="0" layer="20"/>
 <text x="68.2636" y="58.5296" size="1.651" layer="16" rot="MR270">DualStepper V0.2</text>
-<hole x="25.02" y="16.45" drill="3.2"/>
+<hole x="23.8008" y="16.0436" drill="3.2"/>
 <hole x="71.436" y="16.5596" drill="3.2"/>
-<hole x="24.8232" y="73.6212" drill="3.2"/>
+<hole x="24.0104" y="73.8244" drill="3.2"/>
 <hole x="71.3424" y="73.4116" drill="3.2"/>
 <text x="70.84" y="60.8496" size="1.27" layer="16" rot="MR270"> https://github.com/RollingGecko/DualStepper</text>
 </plain>
