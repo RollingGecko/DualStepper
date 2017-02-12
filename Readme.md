@@ -9,4 +9,6 @@ It should be compatible with the following steppers
 
 Additionaly there is also a conector board designed, to bring GND, +5V, step, DIR out from the main board's stepper socket.
 
+You can get the PCB also here for cheap: https://go.aisler.net/RollingGecko/dualstepper
+
 
