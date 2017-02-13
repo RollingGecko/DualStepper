@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -60,8 +60,11 @@
 <plain>
 <wire x1="26.67" y1="40.64" x2="41.834" y2="40.64" width="0" layer="20"/>
 <wire x1="41.834" y1="40.64" x2="41.834" y2="60.95" width="0" layer="20"/>
-<wire x1="41.834" y1="60.95" x2="26.67" y2="60.95" width="0" layer="20"/>
 <wire x1="26.67" y1="60.95" x2="26.67" y2="40.64" width="0" layer="20"/>
+<text x="30.988" y="53.594" size="1.778" layer="25">-</text>
+<text x="30.48" y="51.308" size="1.778" layer="25">+</text>
+<text x="30.734" y="48.514" size="1.778" layer="25">S</text>
+<text x="30.48" y="45.974" size="1.778" layer="25">D</text>
 </plain>
 <libraries>
 <library name="we-board">
@@ -155,7 +158,7 @@
 <class number="2" name="PWR" width="0.508" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules name="default *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -184,7 +187,7 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="8mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="10mil"/>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="10mil"/>
@@ -240,12 +243,12 @@ design rules under a new name.</description>
 </designrules>
 <autorouter>
 <pass name="Default">
-<param name="RoutingGrid" value="50mil"/>
+<param name="RoutingGrid" value="12.5mil"/>
 <param name="AutoGrid" value="1"/>
 <param name="Efforts" value="0"/>
 <param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.1" value="-"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -260,7 +263,7 @@ design rules under a new name.</description>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
+<param name="PrefDir.16" value="|"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -336,51 +339,60 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="B1" library="we-board" package="STEPSTICK_TP" value="STEPSTICK-TP" x="34.29" y="50.8"/>
-<element name="JP1" library="pinhead" package="1X04" value="" x="34.29" y="50.8" rot="R270"/>
+<element name="EXT" library="pinhead" package="1X04" value="" x="34.29" y="50.8" rot="R270"/>
 </elements>
 <signals>
 <signal name="VM">
 <contactref element="B1" pad="VM"/>
 </signal>
 <signal name="N$2" class="2">
-<contactref element="JP1" pad="2"/>
+<contactref element="EXT" pad="2"/>
 <contactref element="B1" pad="VIO"/>
-<wire x1="34.29" y1="52.07" x2="36.83" y2="52.07" width="0.4064" layer="16"/>
-<wire x1="36.83" y1="52.07" x2="36.83" y2="48.26" width="0.4064" layer="16"/>
-<wire x1="36.83" y1="48.26" x2="40.64" y2="44.45" width="0.4064" layer="16"/>
+<wire x1="34.29" y1="52.07" x2="36.83" y2="52.07" width="0.6096" layer="16"/>
+<wire x1="36.83" y1="52.07" x2="36.83" y2="48.26" width="0.6096" layer="16"/>
+<wire x1="36.83" y1="48.26" x2="40.64" y2="44.45" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$3" class="1">
-<contactref element="JP1" pad="3"/>
+<contactref element="EXT" pad="3"/>
 <contactref element="B1" pad="STEP"/>
-<wire x1="34.29" y1="49.53" x2="36.83" y2="46.99" width="0.4064" layer="16"/>
-<wire x1="36.83" y1="46.99" x2="36.83" y2="45.72" width="0.4064" layer="16"/>
-<wire x1="36.83" y1="45.72" x2="35.56" y2="44.45" width="0.4064" layer="16"/>
-<wire x1="35.56" y1="44.45" x2="27.94" y2="44.45" width="0.4064" layer="16"/>
+<wire x1="27.94" y1="44.45" x2="30.48" y2="46.99" width="0.4064" layer="16"/>
+<wire x1="30.48" y1="46.99" x2="30.48" y2="47.498" width="0.4064" layer="16"/>
+<wire x1="30.48" y1="47.498" x2="32.512" y2="49.53" width="0.4064" layer="16"/>
+<wire x1="32.512" y1="49.53" x2="34.29" y2="49.53" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$4" class="2">
-<contactref element="JP1" pad="4"/>
-<contactref element="B1" pad="EN"/>
-<wire x1="34.29" y1="46.99" x2="33.02" y2="46.99" width="0.4064" layer="16"/>
-<wire x1="33.02" y1="46.99" x2="31.75" y2="48.26" width="0.4064" layer="16"/>
-<wire x1="31.75" y1="48.26" x2="31.75" y2="55.88" width="0.4064" layer="16"/>
-<wire x1="31.75" y1="55.88" x2="27.94" y2="59.69" width="0.4064" layer="16"/>
+<contactref element="EXT" pad="4"/>
+<contactref element="B1" pad="DIR"/>
+<wire x1="34.29" y1="46.99" x2="29.21" y2="41.91" width="0.4064" layer="1"/>
+<wire x1="29.21" y1="41.91" x2="27.94" y2="41.91" width="0.4064" layer="1"/>
 </signal>
 <signal name="GND" class="2">
-<polygon width="0.4064" layer="16" spacing="1.4224" pour="cutout" isolate="1.4224" orphans="yes">
-<vertex x="31.75" y="48.26"/>
-<vertex x="31.75" y="49.53"/>
-<vertex x="35.56" y="49.53"/>
-</polygon>
 <contactref element="B1" pad="GND@2"/>
 <contactref element="B1" pad="GND@1"/>
-<contactref element="JP1" pad="1"/>
+<contactref element="EXT" pad="1"/>
 <polygon width="0.254" layer="16" spacing="1.4224" isolate="0.4064" orphans="yes">
 <vertex x="26.67" y="60.96"/>
 <vertex x="41.91" y="60.96"/>
 <vertex x="41.91" y="40.64"/>
 <vertex x="26.67" y="40.64"/>
 </polygon>
-<wire x1="40.64" y1="41.91" x2="34.29" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="34.29" y1="54.61" x2="38.1" y2="54.61" width="0.6096" layer="1"/>
+<wire x1="38.1" y1="54.61" x2="40.64" y2="57.15" width="0.6096" layer="1"/>
+<wire x1="38.1" y1="54.61" x2="38.1" y2="44.45" width="0.6096" layer="1"/>
+<wire x1="38.1" y1="44.45" x2="40.64" y2="41.91" width="0.6096" layer="1"/>
+<polygon width="0.3048" layer="1" isolate="0.4064">
+<vertex x="41.91" y="40.64"/>
+<vertex x="30.226" y="40.64"/>
+<vertex x="26.67" y="40.64"/>
+</polygon>
+<polygon width="0.254" layer="1" isolate="0.4064">
+<vertex x="26.67" y="60.96"/>
+<vertex x="41.91" y="60.96"/>
+<vertex x="41.91" y="45.974"/>
+<vertex x="41.91" y="40.64"/>
+<vertex x="27.94" y="40.64"/>
+<vertex x="26.67" y="40.64"/>
+</polygon>
 </signal>
 </signals>
 </board>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -370,7 +370,7 @@ TMC2130 - SPI for configuration&lt;br&gt;
 </classes>
 <parts>
 <part name="B1" library="we-board" deviceset="STEPSTICK" device="-TP"/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X4" device=""/>
+<part name="EXT" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -379,7 +379,7 @@ TMC2130 - SPI for configuration&lt;br&gt;
 </plain>
 <instances>
 <instance part="B1" gate="BOARD" x="68.58" y="60.96"/>
-<instance part="JP1" gate="A" x="101.6" y="63.5"/>
+<instance part="EXT" gate="A" x="101.6" y="63.5"/>
 <instance part="GND1" gate="1" x="86.36" y="43.18"/>
 </instances>
 <busses>
@@ -387,7 +387,7 @@ TMC2130 - SPI for configuration&lt;br&gt;
 <nets>
 <net name="N$2" class="2">
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
+<pinref part="EXT" gate="A" pin="2"/>
 <wire x1="99.06" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="66.04" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="B1" gate="BOARD" pin="VIO"/>
@@ -396,7 +396,7 @@ TMC2130 - SPI for configuration&lt;br&gt;
 </net>
 <net name="N$3" class="1">
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
+<pinref part="EXT" gate="A" pin="3"/>
 <wire x1="99.06" y1="63.5" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="63.5" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
@@ -407,18 +407,18 @@ TMC2130 - SPI for configuration&lt;br&gt;
 </net>
 <net name="N$4" class="2">
 <segment>
-<pinref part="JP1" gate="A" pin="4"/>
+<pinref part="EXT" gate="A" pin="4"/>
 <wire x1="99.06" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="60.96" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="83.82" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="83.82" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="B1" gate="BOARD" pin="EN(CFG6)"/>
-<wire x1="53.34" y1="76.2" x2="55.88" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="83.82" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="B1" gate="BOARD" pin="DIR"/>
+<wire x1="55.88" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="2">
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
+<pinref part="EXT" gate="A" pin="1"/>
 <wire x1="99.06" y1="68.58" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="68.58" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="B1" gate="BOARD" pin="GND"/>
