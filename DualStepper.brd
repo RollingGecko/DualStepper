@@ -449,11 +449,11 @@ design rules under a new name.</description>
 <attribute name="A1" value="" x="36.83" y="24.13" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SIGNAL" library="pinhead" package="1X04" value="" x="45.72" y="20.32"/>
-<element name="ST1M1" library="con-phoenix-350" package="1751248" value="1751248" x="54.9832" y="69.0614">
-<attribute name="OC_NEWARK" value="unknown" x="54.9832" y="69.0614" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="54.9832" y="69.0614" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="54.9832" y="69.0614" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="54.9832" y="69.0614" size="1.778" layer="27" display="off"/>
+<element name="ST1M1" library="con-phoenix-350" package="1751248" value="1751248" x="55.796" y="69.0614">
+<attribute name="OC_NEWARK" value="unknown" x="55.796" y="69.0614" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="55.796" y="69.0614" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="55.796" y="69.0614" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="55.796" y="69.0614" size="1.778" layer="27" display="off"/>
 </element>
 <element name="ST1M2" library="con-phoenix-350" package="1751248" value="1751248" x="63.3062" y="69.0614">
 <attribute name="OC_NEWARK" value="unknown" x="63.3062" y="69.0614" size="1.778" layer="27" display="off"/>
@@ -467,11 +467,11 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="30.7256" y="68.9598" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="30.7256" y="68.9598" size="1.778" layer="27" display="off"/>
 </element>
-<element name="ST2M2" library="con-phoenix-350" package="1751248" value="1751248" x="38.371" y="68.946">
-<attribute name="OC_NEWARK" value="unknown" x="38.371" y="68.946" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="38.371" y="68.946" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="38.371" y="68.946" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="38.371" y="68.946" size="1.778" layer="27" display="off"/>
+<element name="ST2M2" library="con-phoenix-350" package="1751248" value="1751248" x="38.1678" y="68.946">
+<attribute name="OC_NEWARK" value="unknown" x="38.1678" y="68.946" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="38.1678" y="68.946" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="38.1678" y="68.946" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="38.1678" y="68.946" size="1.778" layer="27" display="off"/>
 </element>
 <element name="VM" library="con-phoenix-350" package="1751248" value="1751248" x="46.6996" y="68.9852">
 <attribute name="OC_NEWARK" value="unknown" x="46.6996" y="68.9852" size="1.778" layer="27" display="off"/>
@@ -652,7 +652,7 @@ design rules under a new name.</description>
 <wire x1="57.2" y1="54" x2="54.6" y2="56.6" width="0.8128" layer="16"/>
 <contactref element="ST1M1" pad="2"/>
 <wire x1="54.6" y1="56.6" x2="54.6" y2="66.8282" width="0.8128" layer="16"/>
-<wire x1="54.6" y1="66.8282" x2="56.7332" y2="68.9614" width="0.8128" layer="16"/>
+<wire x1="54.6" y1="66.8282" x2="57.546" y2="68.9614" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="STEPDRV1" pad="M1B"/>
@@ -663,7 +663,7 @@ design rules under a new name.</description>
 <wire x1="55.88" y1="53.34" x2="53.34" y2="55.88" width="0.8128" layer="16"/>
 <contactref element="ST1M1" pad="1"/>
 <wire x1="53.34" y1="55.88" x2="53.34" y2="68.8546" width="0.8128" layer="16"/>
-<wire x1="53.34" y1="68.8546" x2="53.2332" y2="68.9614" width="0.8128" layer="16"/>
+<wire x1="53.34" y1="68.8546" x2="54.046" y2="68.9614" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$12">
 <contactref element="STEPDRV1" pad="CFG2"/>
@@ -786,14 +786,14 @@ design rules under a new name.</description>
 <wire x1="39.37" y1="55.88" x2="44.45" y2="50.8" width="0.8128" layer="16"/>
 <contactref element="ST2M2" pad="1"/>
 <wire x1="39.37" y1="55.88" x2="39.37" y2="66.097" width="0.8128" layer="16"/>
-<wire x1="39.37" y1="66.097" x2="36.621" y2="68.846" width="0.8128" layer="16"/>
+<wire x1="39.37" y1="66.097" x2="36.4178" y2="68.846" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="STEPDRV2" pad="M2B"/>
 <wire x1="40.64" y1="57.15" x2="44.45" y2="53.34" width="0.8128" layer="16"/>
 <contactref element="ST2M2" pad="2"/>
 <wire x1="40.64" y1="57.15" x2="40.64" y2="68.327" width="0.8128" layer="16"/>
-<wire x1="40.64" y1="68.327" x2="40.121" y2="68.846" width="0.8128" layer="16"/>
+<wire x1="40.64" y1="68.327" x2="39.9178" y2="68.846" width="0.8128" layer="16"/>
 </signal>
 </signals>
 </board>
